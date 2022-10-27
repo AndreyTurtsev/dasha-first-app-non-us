@@ -8,7 +8,7 @@ context
 digression dont_understand_hangup_params
 {
     conditions { on false; }
-    var responses: Phrases[] = ["dont_understand_forward"];
+    var responses: Phrases[] = ["readiness_to_talk"];
     var status = "DontUnderstandHangup";
     var serviceStatus = "Done";
     do
@@ -25,7 +25,7 @@ digression dont_understand
     var retriesLimit=0;
     var counter=0;
     var resetOnRecognized=false;
-    var responses: Phrases[] = ["dont_understand"];
+    var responses: Phrases[] = ["readiness_to_talk"];
     do
     {
         if (digression.dont_understand.counter > digression.dont_understand.retriesLimit)

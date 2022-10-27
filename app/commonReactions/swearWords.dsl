@@ -7,7 +7,7 @@ digression swear_words
         on #messageHasAnyIntent(digression.swear_words.triggers) priority 1010;
     }
     var triggers = ["swear_words"];
-    var responses: Phrases[] = ["dont_understand_forward"];
+    var responses: Phrases[] = ["readiness_to_talk"];
     var status = "AngryCustomer";
     var serviceStatus="Done";
     do

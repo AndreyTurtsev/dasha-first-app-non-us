@@ -20,7 +20,7 @@ preprocessor digression repeat_preprocessor
 digression repeat_hangup_params
 {
     conditions { on false; }
-    var responses: Phrases[] = ["dont_understand_hangup"];
+    var responses: Phrases[] = ["readiness_to_talk"];
     var status = "RepeatHangup";
     var serviceStatus = "Done";
     do
@@ -38,7 +38,7 @@ digression repeat
     var counter = 0;
     var resetOnRecognized=false;
     var triggers = ["repeat", "dont_understand"];
-    var responses: Phrases[] = ["i_said"];
+    var responses: Phrases[] = ["readiness_to_talk"];
     do
     {
         if (digression.repeat.counter > digression.repeat.retriesLimit)

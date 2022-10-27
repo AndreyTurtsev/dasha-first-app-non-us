@@ -1,0 +1,29 @@
+{
+  "voice": {
+    "speaker": "speaker_one",
+    "lang": "ru-RU",
+    "emotion": "good"
+  },
+  "phrases": [
+    {
+      "audio": "speaker_one/hello.mp3",
+      "phrase": "Алло"
+    },
+    {
+      "audio": "speaker_one/hello2.mp3",
+      "phrase": "Ало"
+    },
+    {
+      "audio": "speaker_one/hello3.mp3",
+      "phrase": "Але"
+    },
+    {
+      "audio": "speaker_one/readiness_to_talk.mp3",
+      "phrase": "Скажите, вам сейчас удобно разговаривать?"
+    },
+    {
+      "audio": "speaker_one/readiness_to_talk_repeat.mp3",
+      "phrase": "Вам сейчас удобно разговаривать?"
+    }
+  ]
+}
